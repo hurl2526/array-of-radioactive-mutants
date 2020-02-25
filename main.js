@@ -29,7 +29,7 @@ function oddOrEven(arr){
 
 function changeNextThreeToValue(start1,arr1,value1){
   for (let i = 0; i < arr1.length; i++){
-    if (i >= start1 && i < start1 + 3){
+    if (i >= start1 && i <= start1 + 2){
       arr1[i] = value1;}
     }
   }
